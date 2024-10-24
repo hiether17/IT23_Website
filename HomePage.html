@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+
+    <style>
+        body {
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between; 
+            background-color: rgba(89, 84, 92, 0.425);
+            padding: 10px;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-right {
+            display: flex;
+            gap: 15px; 
+        }
+
+        .header img {
+            height: 50px;
+            width: 50px;
+        }
+
+        .header a {
+            float: left;
+            color: rgb(2, 1, 1);
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 18px;
+            line-height: 25px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .header a.logo {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .header a:hover {
+            background-color: rgb(197, 114, 114);
+            color: rgb(0, 11, 49);
+        }
+
+        .header a.active {
+            background-color: rgb(24, 24, 17);
+            color: white;
+        }
+
+        .logo-text {
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: none; 
+            font-size: 24px; 
+            color: #080808; 
+        }
+
+        .main-content {
+            text-align: center;
+            margin-top: 50px;
+            color: white;
+        }
+
+        h1 {
+            color: black;
+        }
+
+        p {
+            color: black;
+        }
+
+        .applet-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+
+        .applet {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .applet img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .applet h2 {
+            color: #333;
+        }
+
+        .applet p {
+            color: #555;
+        }
+
+        footer {
+            background-color: rgba(89, 84, 92, 0.8);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <img src="https://amchamphilippines.com/wp-content/uploads/2023/07/Dahilayan-Logo-version-1.5.png" alt="Logo" class="logo">
+            <a href="index.html" class="logo-text">DAHILAYAN ADVENTURE PARK</a>
+        </div>
+        <div class="header-right">
+            <a href="about.html">About us</a>
+            <a href="contact.html">Contact us</a>
+            <a class="active" href="index.html">Home</a>
+            <a href="logOut.html">Log out</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <h1>DAhilayan Attractions</h1>
+    </div>
+
+    <div class="applet-container">
+        <div class="applet">
+            <img src="https://vismin.ph/wp-content/uploads/2020/10/Dahilayan-Asia%E2%80%B2s-1st-Longest-Dual-Zipline-2-1536x1536.jpg" alt="Applet 1 Image">
+            <h2>820m Zipline</h2>
+            <p>Dahilayan Adventure Park boasts of two 840m Ziplines with a drop of 100 meters.
+                 Zipriders are transported via 4WD Safari Cruiser to a launch tower at 4500′ ASL. 
+                </p>
+        </div>
+        <div class="applet">
+            <img src="https://vismin.ph/wp-content/uploads/2020/10/Dahilayan-Adventure-Park-skytower-jump.jpg?x21963" alt="Applet 2 Image">
+            <h2>Basejump</h2>
+            <p>Bky Tower Base Jump ride 8 storey platform this is the highest para-jump in the Philippines using a cell site tower. 
+                Riders experience a split second free fall followed by a gradual descent, ending in a soft landing in less than 10 seconds.
+            </p>
+        </div>
+        <div class="applet">
+            <img src="https://images.summitmedia-digital.com/spotph/images/2020/11/18/razorback-coaster-2-1605675195.jpg" alt="Applet 3 Image">
+            <h2>Mountain Coaster</h2>
+            <p> 
+                Mountain Coaster
+                Razorback, the Philippine’s first Alpine
+                Mountain Coaster is now Dahilayan
+                Adventure Park’s latest extreme thrill ride.
+                Quite popular in the ski slopes in Europe, this unique gravity powered ride takes you onboard a sleek coaster cart through a 600 meter monorail winding track from the mountain.
+            </p>
+        </div>
+        <div class="applet">
+            <img src="https://i.ytimg.com/vi/SrAe9r5dUH8/maxresdefault.jpg" alt="Applet 4 Image">
+            <h2>Dropzone</h2>
+            <p> 
+                Dahilayan features a 120 ft Freefall into a manmade lake. Swoop to within feet of the water surface making it an adrenaline pumping Screamer of a ride. 
+                This is the Philippine’s first extreme pendulum swing of its kind.
+            </p>
+    </div>
+    <div class="applet">
+        <img src="https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1618554266/blog/ttpoojd0jxgyofbkoauv.jpg" alt="Applet 5 Image">
+        <h2>Python Rollerzip</h2>
+        <p> Zip, rattle, roll, drop,swing & bounce over 500 meters.
+             Asia′s first zipline roller coaster is now at the Dahilayan Adventure Park in Bukidnon
+        </p>
+</div>
+
+    <footer>
+        <p>&copy; @2023 by DAHILAYAN ADVENTURE PARK</p>
+        <p>Follow us on:
+            <a href="#">Facebook</a> 
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </p>
+    </footer>
+</body>
+</html>

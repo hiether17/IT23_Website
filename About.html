@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+
+    <style>
+        body {
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between; 
+            background-color: rgba(89, 84, 92, 0.425);
+            padding: 10px;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-right {
+            display: flex;
+            gap: 15px; 
+        }
+
+        .header img {
+            height: 50px;
+            width: 50px;
+        }
+
+        .header a {
+            float: left;
+            color: rgb(2, 1, 1);
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 18px;
+            line-height: 25px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .header a.logo {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .header a:hover {
+            background-color: rgb(197, 114, 114);
+            color: rgb(0, 11, 49);
+        }
+
+        .header a.active {
+            background-color: rgb(24, 24, 17);
+            color: white;
+        }
+
+        .logo-text {
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: none; 
+            font-size: 24px; 
+            color: #080808; 
+        }
+
+        .main-content {
+            text-align: center;
+            margin-top: 50px;
+            color: white;
+        }
+
+        h1 {
+            color: black;
+        }
+
+        p {
+            color: black;
+        }
+
+        .applet-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+
+        .applet {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .applet img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .applet h2 {
+            color: #333;
+        }
+
+        .applet p {
+            color: #555;
+        }
+
+        footer {
+            background-color: rgba(89, 84, 92, 0.8);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <img src="https://amchamphilippines.com/wp-content/uploads/2023/07/Dahilayan-Logo-version-1.5.png" alt="Logo" class="logo">
+            <a href="index.html" class="logo-text">DAHILAYAN ADVENTURE PARK</a>
+        </div>
+        <div class="header-right">
+            <a href="about.html">About us</a>
+            <a href="contact.html">Contact us</a>
+            <a class="active" href="index.html">Home</a>
+            <a href="logOut.html">Log Out</a>
+        </div>
+      </div>
+    <div class="applet-container">
+        <div class="applet">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.-95psZdhAvDUYAhWmN0xjQHaEo&pid=Api&P=0&h=180" alt="Applet 1 Image">
+            <h2>DAHILAYAN ADVENTURE PARK</h2>
+            <p>  Attractions
+                Looking to experience the greatest adventure of your life? Be among the first to brave Asia’s Longest Dual Zipline and fly like Superman from a launch point at 4,700 feet above sea level. 
+                With speeds of up to 90 kph, zoom through lush greenery and breathtaking views only found in the mountains of Dahilayan. 
+                Guaranteed safe and fun for every age, Zipzone has become the ultimate adventure destination for young and old alike. Since its opening in September 2009, Zipzone has been visited to over a thousand enthusiasts, including a courageous
+                2 year old and a 77 year old grandpa.
+                
+                Get the thrill of your life with Zipzone’s 840m scream inducing ride! Bond with families and friends amidst Dahilayan’s cool and foggy weather.
+                 This is one amazing adventure you will never forget!</p>
+        </div>
+    </footer>
+</body>
+</html>
